@@ -3,6 +3,16 @@ body {
   margin: 0;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  overflow-x: clip;
+}
+
 *,
 *:before,
 *:after {

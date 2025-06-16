@@ -4,4 +4,11 @@
   padding-right: 32px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+
+@media (max-width: 440px) {
+  .maxWidthWrapper {
+    position: static;
+  }
 }
